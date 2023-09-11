@@ -1,0 +1,27 @@
+Libraries needed:
+    numpy
+    math
+    matplotlib
+    seaborn
+    os
+    scipy
+    PIL
+
+I made another file called tree.py that holds the Node and DecisionTree classes. They are responsible for the parts to make the tree.
+
+To run the program:
+    The listed libraries need to be installed, the yalefaces directory and CTG.csv data need to be at the same level as hw4.py and tree.py.
+
+    To run the program: python3 ./hw4.py
+
+    Within the "if ___name__ == "__main__"", you can comment or uncomment depending on which classification algorithm you want to run.
+
+    For KNN: 
+        For preprocessing, I z-scored the features.
+
+        You can change the data path via the global variable that is passed through on line 85. The options are CTG_DATA_PATH and YALEFACES_PATH. To change the k value, you have to change the last paramter passed through to myKNN on line 86.
+
+        On completion the code prints the accuracy and produces a confusion matrix.
+
+    For DT:
+        I wasnt able to complete DT. I tried implementing as much as possible.
